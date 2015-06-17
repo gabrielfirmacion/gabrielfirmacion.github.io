@@ -1,0 +1,33 @@
+main {
+    background-color: #6257FF
+}
+
+h1 {
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    font-size: 65px;
+}
+
+h9 {
+    display: inline;
+    font-weight: Bold;
+
+}
+
+h3 {
+    display: inline;
+    margin: 7em;
+    text-align: center;
+}
+
+img {
+    height: 350px;
+  width: 300px;
+  margin: 5em;
+}
+
+h8 {
+    bottom: 50em;
+    left: 50em;
+}
