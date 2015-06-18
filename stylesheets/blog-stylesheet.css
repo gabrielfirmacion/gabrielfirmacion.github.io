@@ -1,0 +1,45 @@
+* {
+    background-color: #6257FF
+}
+
+h1 {
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    font-size: 65px;
+    border-style: solid;
+    border-color: #FFE83D;
+}
+
+h9 {
+    display: inline;
+    font-weight: Bold;
+
+}
+
+h3 {
+    display: inline;
+    margin: 7em;
+    text-align: center;
+}
+
+img {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+h8 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+h10 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-weight: bold;
+}
