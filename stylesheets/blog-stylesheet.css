@@ -29,6 +29,7 @@ img {
     width: 200px;
     display: inline-block;
     vertical-align: top;
+    margin: 2em;
 }
 
 h8 {
@@ -42,4 +43,8 @@ h10 {
     bottom: 0;
     right: 0;
     font-weight: bold;
+}
+
+p {
+    display: block;
 }
