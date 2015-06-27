@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<head>
+  <title>Arrays and Hashes</title>
+  <meta charset="UTF-8">
+  <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css" />
+</head>
+
+<main>
+  <h1>Arrays and Hashes</h1>
+  <h2>two types of an ordered list in Ruby</h2>
+  <h4>June 27, 2015</h4>
+
+  <section>
+    <p>
+      Arrays and Hashes basically do the same thing. They both store information. In programming, you would often want to store information in your code and perform different methods on them.
+    </p>
+    <p>
+       Here are examples of arrays:<br/>
+
+athletes = [“Kobe Bryant”, “David Beckham” , “Manny Pacquiao” , “Tiger Woods”]<br/>
+numbers = [ 1, 5, 4, 8, 1000]<br/>
+mixed = [1, “hello”, 67, “Yolo”]<br/>
+<br/>
+  Above are three example of arrays. As you can see, the elements inside the array can be of any order and can also be a mix of strings and integers. Arrays are very useful when you want to perform a certain method on a group of elements. If you want to call an element in an array, you should start by counting from 0. “Kobe Bryant” is the 0th element in the array of athletes while 1 is for both numbers and mixed. This can be called by saying athletes[0] or numbers[0] / mixed[0]. What is athletes[2]? If you answered “Manny Pacquiao”, then you are correct!
+
+    </p>
+    <p>
+        Here is an example of a hash:<br/>
+
+athletes = {<br/>
+“basketball” => “Kobe Bryant”,<br/>
+“soccer” => “David Beckham”,<br/>
+“boxing” => “Manny Pacquiao”,<br/>
+“golf” => “Tiger Woods”,<br/>
+“congressman” => “Manny Pacquiao”<br/>
+}<br/>
+<br/>
+  Unlike an array, a hash is a collection of pairs of information. Each pair has a key and a value. The key is the one on the left and the value is the one on the right. Just to clear things out for this example, the types of sports are the keys and the people are the athletes. Keys must be unique for each pair while a value can repeat as many times as it wants given that their keys are different. As you can see, “Manny Pacquiao” is a value for both keys, “boxing” and “congressman” (yes, he is a congressman in the Philippines). Unlike an array wherein you use numbers to call the value of an element, you will use the key to call them. athletes[“soccer”] will return “David Beckham”.
+
+    </p>
+    <p>
+    There will be a lot of uses for both arrays and hashes. It depends on the situation which one you really need. So everytime you want to store information, choose wisely if you want to use an array or a hash.
+    </p>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+    <h9><a href="http://gabrielfirmacion.github.io/">Back</h9>
+
+  </section>
+</main>
