@@ -1,6 +1,6 @@
 a.button-facebook,
 a.button-twitter,
-a.button-Linkedin {
+a.button-linkedin {
     border-radius: 3px;
     box-shadow: 0 1px 1px #999;
     color: #fff;
@@ -75,7 +75,7 @@ h1 {
 
 h3 {
     display: inline;
-    margin: 8em;
+    margin: 7em;
     text-align: center;
 
 }
