@@ -41,6 +41,9 @@ h8 {
     position: relative;
     margin-top: 20px;
 }
-
+.game {
+    height: 20em;
+    width:25em;
+}
 
 
