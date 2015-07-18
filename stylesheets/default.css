@@ -4,14 +4,16 @@ a.button-linkedin {
     border-radius: 3px;
     box-shadow: 0 1px 1px #999;
     color: #fff;
-    display: inline-block;
     font-size: 20px;
-    margin: 0 10px 10px 0;
-    margin: 0 1rem 1rem 0;
+    display: inline-block;
+    margin: 2px;
     padding: 10px 15px;
     padding: 1rem 1.5rem;
     text-align: center;
     width: 80px;
+    float: right;
+
+
 }
 
 a.button-facebook {
@@ -20,7 +22,10 @@ a.button-facebook {
     background: -ms-linear-gradient(top, #3b5998, #2b4170);
     background: -webkit-linear-gradient(top, #3b5998, #2b4170);
     border: 1px solid #2b4170;
-    text-shadow: 0 -1px -1px #1f2f5
+    text-shadow: 0 -1px -1px #1f2f5;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 
 }
 
@@ -37,6 +42,9 @@ a.button-linkedin {
     background: -webkit-linear-gradient(top, #009cda, #0073b2);
     border: 1px solid #0073b2;
     text-shadow: 0 -1px -1px #005486;
+    position: absolute;
+    bottom: 0;
+    right: 7em;
 }
 
 a.button-linkedin:hover {
@@ -53,6 +61,9 @@ a.button-twitter {
     background: -webkit-linear-gradient(top, #00aced, #0081ce);
     border: 1px solid #0081ce;
     text-shadow: 0 -1px -1px #005ea3;
+    position: absolute;
+    bottom: 0;
+    right: 14em;
 }
 
 a.button-twitter:hover {
@@ -83,8 +94,8 @@ h3 {
 img {
     height: 350px;
     width: 300px;
-    margin: 5em;
-    position: inline;
+    margin: 4em;
+    position: inline-block;
     border-radius: 50%;
 }
 
@@ -96,12 +107,14 @@ h8 {
 }
 .Cultural_Blogs {
     float: left;
-    margin-left: 400px;
+    margin-left: 250px;
     font-family: Monaco;
     font-size: 15px;
     border-style: dotted;
     border-color: #FFE83D;
     Border-width: 10px;
+    position: absolute;
+
 }
 
 .Technical_Blogs {
@@ -112,6 +125,7 @@ h8 {
     border-style: dotted;
     border-color: #FFE83D;
     Border-width: 10px;
+    position: relative;
 }
 
 h10 {
