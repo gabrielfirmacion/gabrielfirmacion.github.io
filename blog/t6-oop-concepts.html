@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+  <title>OOP</title>
+  <meta charset="UTF-8">
+  <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css" />
+</head>
+
+<main>
+  <h1>Variable Scope</h1>
+
+
+  <section>
+  <h4>July 24, 2015</h4>
+    <p>
+In Ruby, there are 5 types of variables namely: local, global, class, constant, and instance variables. I will go into detail into each variable in my blog for today. Each variable has its own use and has accessibility differences. We call this accessibility difference as variable scope (yes, just like the title).
+    </p>
+    <p>
+If you want to know what type of variable you are using, you can use the ‘defined?’ method. Using your irb, set test = “this is a local variable”, if you put in irb ‘defined?test’, it will be => “local-variable.” Let’s try another example. Set $test = “this is a global variable.” Type in irb ‘defined?$test, it will be => “global-variable.”
+    </p>
+    <p>
+Let us tackle the most basic variable first, the local variable. Local variables must start with a lower case letter or an underscore (manufacturer or _manufacturer can be local variables.) These types of variables can only be accessed where you put them. So if you put them inside a method, it can only be accessed inside the method. If you put it inside a loop, you can only access it inside the loop. Think of it as a “use it where you put it” mentality.
+    </p>
+    <p>
+However, if you wanted to access a variable anywhere in the Ruby program, you can use the global variable. These variables start with the $ sign ($name is a global variable). The use of global variables is actually discouraged because they are visible to anywhere in the program and can also be changed from anywhere. So if you have a program that is so complex and there is tons of code, you might find it hard to track an error or a bug if you have global variables.
+    </p>
+    <p>
+If you want to use a variable that is accessible to the whole class and is shared amongst all instances, you can use a class variable. Class variables start with double @ signs (@@tire is a class variable.) If the value of the class variable changes, it changes for all instances. You can think of class variables as global variables for a class and not the whole Ruby Program.
+    </p>
+    <p>
+Instance variables are similar to class variables in the sense that they can be accessed within the class. However, with the word instance, that variable only changes with that instance. Instance variables start with one @ sign (@sum is an instance variable). For example, if you have two driver tests running at the same time, the instance variables’ values can be different for the two driver tests.
+    </p>
+    <p>
+Lastly, constant variables must start with a capital letter. However for good practice, programmers just type everything in upper case (BEERS can be a constant variable). These variables should not be changed but if you wish to do so, you could but Ruby will just give you a warning. So make sure that every time you put a constant variable, you should be sure of the value you are assigning it.
+    </p>
+    <p>
+There you go folks! A brief overview of all the variables in one place!  If you have any questions, feel free to email me.
+    </p>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+    <h8><a href="http://gabrielfirmacion.github.io/blog:index.html">Back</a></h8>
+
+  </section>
+</main>
