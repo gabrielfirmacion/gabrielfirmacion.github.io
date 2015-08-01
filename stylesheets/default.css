@@ -128,6 +128,19 @@ h8 {
     position: relative;
 }
 
+.projects {
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    font-family: Monaco;
+    font-size: 20px;
+    border-style: dotted;
+    border-color: #FFE83D;
+    Border-width: 10px;
+    position: static;
+}
+
 h10 {
     float:right;
     bottom: 0;
