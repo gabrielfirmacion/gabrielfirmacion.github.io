@@ -4,13 +4,13 @@ a.button-linkedin {
     border-radius: 3px;
     box-shadow: 0 1px 1px #999;
     color: #fff;
-    font-size: 20px;
+    font-size: 1.25em;
     display: inline-block;
-    margin: 2px;
-    padding: 10px 15px;
+    margin: 0.5em;
+    padding: 1em 1.5em;
     padding: 1rem 1.5rem;
     text-align: center;
-    width: 80px;
+    width: 4em;
     float: right;
 
 
@@ -86,14 +86,14 @@ h1 {
 
 h3 {
     display: inline;
-    margin: 7em;
+    margin: 5em;
     text-align: center;
 
 }
 
 img {
-    height: 350px;
-    width: 300px;
+    height: 20em;
+    width: 20em;
     margin: 4em;
     position: inline-block;
     border-radius: 50%;

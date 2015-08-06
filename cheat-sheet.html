@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="stylesheets/cheat-sheet.css" />
+    <title>My Web Page Index</title>
+    <meta charset="UTF-8">
+</head>
+<main>
+<body>
+<h1>Ruby Hashes, Arrays, Strings, Integers</h1>
+<div>
+    <h3>Integers</h3>
+    <p>times</p>
+        <code> 5.times do |x| <br> print x <br> end <br>
+    #=> 0 1 2 3 4</code>
+    <p>even?</p>
+        <code> x = any integer <br> x.even? #=> returns true if it is, otherwise returns false </code>
+    <p>odd?</p>
+        <code> x = any integer <br> x.odd? #=> returns true if it is, otherwise returns false </code>
+    <p>next</p>
+        <code> 1.next <br> #=> 2 </code>
+
+    <h3>String</h3>
+    <p>include?</p>
+         <code> "bootcamp".include? "mp"   #=> true </code>
+    <p>length</p>
+         <code> "bootcamp".length #=> 8, returns the number of characters in string </code>
+    <p>delete</p>
+         <code>"bootcamp".delete "o" #=> "btcamp" </code>
+    <p>reverse</p>
+         <code>"bootcamp".reverse #=> "pmactoob" </code>
+
+    <h3>Array</h3>
+    <p>map!</p>
+    <code>
+    a = ['g', 'a', 'b', 'r', 'i', 'e', 'l'] <br>
+    a.map! {|x| x + "!"} <br>
+    a #=> ['g!', 'a!', 'b!', 'r!', 'i!', 'e!', 'l!']
+    </code>
+    <p>sort!</p>
+    <code>
+    a = ['x', 'a', 'n', 'd', 'e', 'r'] <br>
+    a.sort! #=> ['a', 'd', 'e', 'n', 'r', 'x'] <br>
+    a.sort! {|x,y| y <=> x} #=> ['x', 'r', 'n', 'e', 'd', 'a']
+    </code>
+    <p>push</p>
+    <code>
+    a = ['a', 'b', 'c', 'd'] <br>
+    a.push('e', 1, 2, true) <br>
+    #=> ['a', 'b', 'c', 'd', 'e', true, 2, ]
+    </code>
+    <p>pop</p>
+    <code>
+    a = ['a', 'b', 'c', 'd', 'e', true, 2] <br>
+    a.pop #=> 2 <br>
+    #=> ['a', 'b', 'c', 'd', 'e', true] <br>
+    a.pop(3) #=> ['d', 'e', true] <br>
+    #=> ['a', 'b', 'c']
+    </code>
+
+    <h3>Hash</h3>
+    <p>has_key?</p>
+    <code>
+    h = {"a" = 10, "b" = 20} <br>
+    h.has_key?("b") #=> true <br>
+    h.has_key?("c") #=> false
+    </code>
+    <p>has_value?</p>
+    <code>
+    h = {"a" = 10, "b" = 20} <br>
+    h.has_value?(20) #=> true <br>
+    h.has_value?(77) #=> false
+    </code>
+    <p>each_key</p>
+    <code>
+    h = {"a" = 10, "b" = 20} <br>
+    h.each_key {|key| puts key}<br>
+    #=> a<br>
+    #=> b
+    </code>
+    <p>invert</p>
+    <code>
+    h = { "a" = 10, "b" = 20, "c" = 30, "d" = 40 } <br>
+    h.invert <br>
+    #=> { 10 = "a", 20 = "b", 30 = "c", 40 = "d"}
+    </code>
+
+</div>
+<h8><a href="http://gabrielfirmacion.github.io/blog:index.html">Back</a></h8>
+</body>
+
+</main>
+</html>
