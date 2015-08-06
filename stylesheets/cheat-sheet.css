@@ -1,0 +1,42 @@
+body {
+    background-color: #b0c4de;
+}
+
+div {
+    border-style: solid;
+    border-width: 0.5em;
+    width: 50em;
+    padding: 3em;
+    font-size: 1.5em;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 45px;
+}
+h3 {
+    color: crimson;
+    text-align: center;
+    font-size: 35px;
+}
+
+p {
+    color: purple;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+}
+
+code {
+    background-color: black;
+    color: limegreen;
+}
+
+h8 {
+    font-size: 1.5em;
+    bottom: 0;
+    left: 0;
+    float: left;
+    position: relative;
+    margin-top: 1em;
+}
