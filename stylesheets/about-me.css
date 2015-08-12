@@ -33,9 +33,11 @@ p {
 section {
     border-style: groove;
     border-color: #FFE83D;
-    Border-width: 10px;
-    margin-right: 150px;
-    margin-left: 150px;
+    Border-width: 0.7em;
+    padding: 0.5em;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-bottom: 5em;
 }
 
 h8 {

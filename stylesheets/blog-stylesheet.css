@@ -1,12 +1,11 @@
+section {
+    margin-bottom: 5em;
+}
 h1 {
     font-family: Monaco;
     font-weight: bold;
     text-align: center;
-    font-size: 40px;
-    border-style: groove;
-    border-color: #FFE83D;
-    background-color: #39558F;
-    Border-width: 10px;
+    font-size: 4em;
 }
 
 img {
@@ -23,7 +22,7 @@ p {
     display: block;
     text-indent: 50px;
     font: Tahoma;
-    font-size: 20px;
+    font-size: 1.5em;
 }
 
 section {
@@ -34,13 +33,6 @@ section {
     margin-left: 150px;
 }
 
-h8 {
-    bottom: 0;
-    left: 0;
-    float: left;
-    position: relative;
-    margin-top: 20px;
-}
 .game {
     height: 20em;
     width:25em;
