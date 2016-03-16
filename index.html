@@ -1,106 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Gabriel's Web Page</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <!-- Bootstrap -->
-    <link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link type="text/css" rel="stylesheet" href="stylesheets/buttons.css" />
+    <title>Gabriel Firmacion</title>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
 
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Gabriel Firmacion's Web Page</a>
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Home</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Connect</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="http://gabrielfirmacion.github.io/gabrielfirmacion.github.io/Resume%March%202016.pdf" target="_blank">Resume</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="http://gabrielfirmacion.github.io/index.html">Home</a></li>
-            <li><a target="_blank" href="gabrielfirmacion.github.io/Resume February 2016.pdf">Resume</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blogs <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-              <li class="dropdown-header">Cultural Blogs</li>
-                <li><a href="http://gabrielfirmacion.github.io/blog/c1-chefs-kitchen.html">DBC feelings</a></li>
-                <li><a href="http://gabrielfirmacion.github.io/blog/c3-thinking-style.html">My Thinking Style</a></li>
-                <li><a href="http://gabrielfirmacion.github.io/blog/c4-tech-issues.html">Biggest Problem in the Tech Industry</a></li>
-                <li><a href="http://gabrielfirmacion.github.io/blog/c5-feedback.html">Feedback</a></li>
-                <li><a href="http://gabrielfirmacion.github.io/blog/c6-stereotype-threat.html">Stereotype Threat</a></li>
-                <li><a href="http://gabrielfirmacion.github.io/blog/c7-values.html">Stop Stereotype Threat</a></li>
-                <li><a href="http://gabrielfirmacion.github.io/blog/c8-conflict.html">Conflict</a></li>
-                <li><a href="http://gabrielfirmacion.github.io/blog/c9-questions.html">Asking Good Questions</a></li>
-                <li class="divider"></li>
-              <li class="dropdown-header">Technical blogs</li>
-                <li><a href="http://gabrielfirmacion.github.io/blog/t1-git-blog.html">Git Me</a></li>
-                <li><a href="http://gabrielfirmacion.github.io/blog/t2-css-design.html">Positioning</a></li>
-                <li><a href="http://gabrielfirmacion.github.io/blog/t3-arrays-hashes.html">Arrays and Hashes</a></li>
-                <li><a href="http://gabrielfirmacion.github.io/blog/t4-enumerable-methods.html">Map</a></li>
-                <li><a href="http://gabrielfirmacion.github.io/blog/t5-ruby-classes.html">Ruby Class</a></li>
-                <li><a href="http://gabrielfirmacion.github.io/blog/t6-oop-concepts.html">Variable Scope</a></li>
-                <li><a href="http://gabrielfirmacion.github.io/blog/t7-JavaScript.html">Ruby Hash VS JavaScript Object</a></li>
-                <li><a href="http://gabrielfirmacion.github.io/blog/t8-tech.html">What is Rails?</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a target="_blank" href="http://restaurant-roulette.herokuapp.com/">Restaurant Roulette</a></li>
-                <li><a target="_blank" href="https://chrome.google.com/webstore/detail/potato-timer/cohpelnhkkflnlnkfadomkimmpejeifa?authuser=1">Potato Timer Chrome Extension</a></li>
-              </ul>
-           <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cheat Sheets <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="http://gabrielfirmacion.github.io/cheat-sheet.html">Ruby Cheat Sheet</a></li>
-              </ul>
-          </ul>
-        </div><!--/.nav-collapse -->
-     <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
-      <div class="container">
-        <div class="navbar-text pull-left">
-          <p>Contact me at gabrielfirmacion@gmail.com</p>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1></h1>
+                </br>
+
+                <p>This is my personal website. Feel free to check it out and get a glimpse of my journey in the life of code</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Wanna know something about me?</a>
+            </div>
         </div>
-        <div class="navbar-text pull-right">
-          <a href="https://www.facebook.com/gabrielfirmacion"><i class="fa fa-facebook-square fa-3x"></i></a>
-          <a href="https://twitter.com/gfirmacion"><i class="fa fa-twitter fa-3x"></i></a>
-          <a href="https://plus.google.com/114747840407718870193/posts"><i class="fa fa-google-plus fa-3x"></i></a>
-          <a href="https://github.com/gabrielfirmacion"><i class="fa fa-github fa-3x"></i></a>
-          <a href="https://instagram.com/gabbyfirmacion/"><i class="fa fa-instagram fa-3x"></i></a>
-          <a href="https://www.linkedin.com/in/gabrielfirmacion"><i class="fa fa-linkedin-square fa-3x"></i></a>
+    </header>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">A short story about my coding life</h2>
+                    <hr class="light">
+                    <p class="text-faded">blah blahblah blahblah blahblah blahblah blahblah blahblah blahblah blahblah blahblah blahblah blahblah blahblah blahblah blahblah blahblah blahblah blahblah blah</p>
+                    <a href="#projects" class="btn btn-default btn-xl" id="social">Connect with me more!</a>
+                </div>
+            </div>
         </div>
-      </div>
+    </section>
 
-      </div>
-    </div>
-<img src="https://github.com/gabrielfirmacion/gabrielfirmacion.github.io/blob/master/imgs/Hawaii-edit.JPG?raw=true" width="100%" />
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Social Media</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <a href="https://www.facebook.com/gabrielfirmacion" target="_blank"><i class="fa fa-facebook-square fa-5x" style="color: #2b4170"></i></a>
+                        <h3>Facebook</h3>
+                        <p class="text-muted">Delete this?</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <a href="https://plus.google.com/114747840407718870193/posts" target="_blank"><i class="fa fa-google-plus fa-5x" style="color: #c33219"></i></a>
+                        <h3>Google Plus</h3>
+                        <p class="text-muted">Delete This?</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <a href="https://github.com/gabrielfirmacion" target="_blank"><i class="fa fa-github fa-5x" style="color:black;"></i></a>
+                        <h3>Github</h3>
+                        <p class="text-muted">Delete This?</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <a href="https://www.linkedin.com/in/gabrielfirmacion"><i class="fa fa-linkedin-square fa-5x" target="_blank" style="    color: #0073b2"></i></a>
+                        <h3>LinkedIn</h3>
+                        <p class="text-muted">Delete This?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://restaurant-roulette.herokuapp.com/" target="_blank"class="portfolio-box">
+                        <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
 
+                                </div>
+                                <div class="project-name">
+                                    Restaurant Roulette
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://chrome.google.com/webstore/detail/potato-timer/cohpelnhkkflnlnkfadomkimmpejeifa?authuser=1" target="_blank" class="portfolio-box">
+                        <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
 
+                                </div>
+                                <div class="project-name">
+                                    No Potato Timer Chrome Extension
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
 
+                                </div>
+                                <div class="project-name">
+                                    Sorry, not yet ready!
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                    <p>Ready to start your next project with me? That's great! Give me a call or send me an email and I will get back to you as soon as possible!</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                    <p>650-878-7883</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:gabrielfirmacion@gmail.com">gabrielfirmacion@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
-  </body>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
+</body>
 
 </html>
